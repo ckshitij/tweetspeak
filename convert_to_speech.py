@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import pyttsx , os , signal
-os.system("python twi.py");
+os.system("python tweet_fetch.py");
 
 def handler(signal , frame) :
         print "Cleanup"
